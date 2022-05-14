@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "nombre": "",
+        "apellido": "",
+        "fecha": "",
+        "telefono": "",
+        "email": "",
+        "pass": "",
+        "avatar": ""
+    },
+    {
+        "id": 1,
+        "nombre": "Carlos Osmar",
+        "apellido": "Caceres",
+        "fecha": "1988-02-17",
+        "telefono": "01133500257",
+        "email": "omarcaceres@live.com",
+        "pass": "123",
+        "avatar": ""
+    },
+    {
+        "id": 2,
+        "nombre": "Carlos Osmar",
+        "apellido": "Caceres",
+        "fecha": "2022-05-20",
+        "telefono": "01133500257",
+        "email": "omarcaceres@live.com",
+        "pass": "123",
+        "avatar": ""
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Osmar",
+        "apellido": "Caceres",
+        "fecha": "1988-02-17",
+        "telefono": "01133500257",
+        "email": "omarcaceres@live.com",
+        "pass": "123",
+        "avatar": ""
+    },
+    {
+        "id": 4,
+        "nombre": "Carlos Osmar",
+        "apellido": "Caceres",
+        "fecha": "1988-02-17",
+        "telefono": "01133500257",
+        "email": "omarcaceres@live.com",
+        "pass": "123",
+        "avatar": ""
+    },
+    {
+        "id": 5,
+        "nombre": "Franco",
+        "apellido": "Choque",
+        "fecha": "1994-02-15",
+        "telefono": "1540978038",
+        "email": "franco.emanuel.choque@gmail.com",
+        "pass": "123",
+        "avatar": "1652229319014_img_.png"
+    }
+]

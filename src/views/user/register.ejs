@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%-include("../partials/head.ejs") %> 
+  <body>
+    <!-- Inicio Header -->
+    <%-include("../partials/header.ejs") %>
+    <!-- Fin Header -->
+    <br>
+    <!-- Inicio Registro -->
+
+    <div class="divForm_login">
+      <a class="retornHome_login" href="/login">Regresar al home</a>
+      <form class="form_login" action="registro" method="post" enctype="multipart/form-data"><!-- action="registro" method="post" enctype="multipart/form-data"   en action va la ruta -->
+        <div class="subtituloRegistro">
+            <h2>Registrarse</h2>
+            <i class="fa-solid fa-key"></i>
+  
+        </div>
+        <div class="subtitulo">
+            <i class="fa-solid fa-user"></i>
+            <h2>Datos personales</h2>
+        </div>
+        <div class="box-1_registro">
+            <input class="input_register" type="text" name="nombre" id="nombre" placeholder="Ingresar nombre" required>
+            <input class="input_register" type="text" name="apellido" id="apellido" placeholder="Ingresar apellido" required>
+            <input class="input_register" type="date" name="fecha" id="fecha" placeholder="Seleccionar fecha" required>
+            <input class="input_register" type="tel" name="telefono" id="telefono" placeholder="Ingrese su Telefono/Celular" required>
+            <input class="input_register" type="email" name="email" id="email" placeholder="Correo electronico" required>
+            <input class="input_register" type="password" name="pass" id="pass" placeholder="Escriba una contraseña" required>  
+        </div>
+        <!-- avata -->
+        <div class="form--group">
+          <label for="avatar">Avatar</label>
+          <br>
+          <input type="file" name="avatar" id="avatar">
+        </div>
+        <!--  -->
+        <div class="subtitulo_registro">
+            <i class="fa-solid fa-lock"></i>
+            <h2>Registrarse</h2>
+        </div>  
+        <div class="box-2_registro">
+            <input class="input_register" type="password" name="datopass" id="datopass" placeholder="Ingresar contraseña">  
+            <input class="input_register" type="password" name="datorepass" id="datorepass" placeholder="Reingresar su contraseña">
+        </div>  
+        <div class="condiciones_registro">
+            <div class="checkbox">
+                <input class="checkbox-in" type="checkbox" name="pass1" id="promociones" >
+                <label for="promociones">Quiero estar al tanto de nuevas promociones</label>
+            </div>
+            <div class="checkbox">
+                <input class="checkbox-in" type="checkbox" name="pass1" id="terminos" >
+                <label for="terminos">Aceptar terminos y condiciones</label>
+            </div>
+        </div>
+        <div class="boton_registro"> 
+            <button class="boton-boton" type="submit">Enviar</button>
+            <button class="boton-boton" type="reset">Cancelar</button>
+        </div>
+        <div class="redes_registro">
+            <button class="redes-boton" type="button">
+              <a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" 
+              class="fa-brands fa-google">
+              <label class="redes-boton-2" for="google">Continuar con Google</label>
+              </a>
+            </button>
+            <button class="redes-boton" type="button">
+              <a href="https://www.facebook.com/"  class="fa-brands fa-facebook-square">
+                <label class="redes-boton-2" for="facebook">Continuar con Facebook</label>
+              </a>
+            </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Fin Registro -->
+    <br>
+    <!-- Inicio del Footer -->
+    <%-include("../partials/footer.ejs")%>
+    <!-- Fin del Footer -->
+    <script src="https://kit.fontawesome.com/5f1547b5eb.js" crossorigin="anonymous"></script>
+  </body>
+</html>

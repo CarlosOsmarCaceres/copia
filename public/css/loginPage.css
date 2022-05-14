@@ -1,0 +1,119 @@
+
+
+/* .body_login {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #006f97;
+    /* display: flex; */
+    /* flex-direction: column; */
+/*     justify-content: center;
+    align-items: center;
+    padding: 7%;  
+}   */ 
+.divForm_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #006f97;
+}
+.form_login{
+    display: flex;  
+    flex-direction: column;
+    background-color: var(--color-1);
+    /* border: solid 2px #006f97; */
+    box-shadow: 1%;
+    width: min-content;
+    padding: 3%;
+    border-radius: 6px;
+    justify-content: center ;
+    background-color: aliceblue;
+    box-shadow: 0 0px 5px white;
+   
+}
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 31px;
+}
+.portada #fa-solid_login {
+    height: 62px;
+    margin-top: 0.5rem;
+}
+/* .headerbuscar {
+    width: 250px;
+    border-radius: 4%;
+    margin-bottom: 2px;
+    padding-left: 6px;
+    transition: 1s;
+}
+.headerbuscar:hover {
+    width: 240px;
+    height: 33px;
+} */
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+}
+.box-1_login {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.box-1_login .input_login{
+    width: 100%;
+    border-radius: 4px;
+    padding: 1% 3%;
+}
+.enviar_login {
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 3%;
+}
+.recording_login {
+    font-size: 12px;
+}
+.enviar_login .enviar_login-boton {
+    border-radius: 4px  ;   
+    transition: 2s; 
+    padding: 1% 3%;
+}
+
+.enviar_login .enviar_login-boton:hover {
+    background-color: #006f97;
+    color: white;
+    font-weight: bold;
+    
+}
+.redes_login .redes-boton {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 3px;
+    transition: 1s;
+    padding: 1% 3%;
+}
+.redes_login .redes-boton:hover {
+    background-color: #006f97;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* label {
+    transition: 1s;
+} */
+.redes_login .redes-boton .redes-boton-2:hover {
+    background-color: var(--color-4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* 
+
+@media (min-width: 992px) {
+   
+} */

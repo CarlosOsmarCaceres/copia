@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%-include("../partials/head.ejs") %>
+  <body>
+    <!-- Inicio Header -->
+    <%-include("../partials/header.ejs") %>
+    <!-- Fin Header -->
+    <br>
+    <!-- Inicio Home -->
+
+    <hr>
+    <!-- inicio del home -->
+    <hr>
+    <h2 class="h2_index"> Novedades</h2>
+    <hr>
+    <!-- Carrusel -->      
+    <div class="slider_index">
+      <ul class="ul_index">
+        <li><img src="/img/slider/slider_1.jpg" alt=""></li>
+        <li><img src="/img/slider/slider_2.jpg" alt=""></li>
+        <li><img src="/img/slider/slider_3.jpg" alt=""></li>
+        <li><img src="/img/slider/slider_4.jpg" alt=""></li>
+      </ul>
+    </div>
+    
+    <h2>Productos Destacados!</h2>
+    <div class="contenedor">
+        <main class="main_index" style="display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: unset;">
+      <br>
+      <% productos.forEach(element => { %>
+        <section class="productos-fran">
+            <div class="home_omar">
+              <a class="Container_omar" href="../producto/detalle/<%= element.id  %>">
+                <article class="product_index">
+                  <img width="100%" src="<%= element.image  %>" alt="<%= element.image  %>">
+                  <div class="detalle_index">
+                    <strong> <p class="precio">$<%= element.price %></p></strong> 
+                    <strong><p class="descuento"><%= element.discount %>% OFF</p></strong> 
+                    <strong><%= element.name  %></strong>
+                  <button class="button_index"> <i class= "icono fa-solid fa-cart-plus"></i></button>
+                  </div>
+                </article>
+              </a>
+            </div>
+
+            <br>
+          </section>
+          <% }) %>
+      </main> 
+
+      <!-- Fin del Home -->
+      <br>
+      <!-- Inicio del Footer -->
+    </div>
+    <%-include("../partials/footer.ejs")%>
+    <!-- Fin del Footer -->
+    <script src="https://kit.fontawesome.com/5f1547b5eb.js" crossorigin="anonymous"></script>
+  </body>
+</html>

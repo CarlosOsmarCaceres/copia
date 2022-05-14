@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "name": "Corazon-Delator",
+        "price": 2700,
+        "description": "Libro autentico, edicion limitada",
+        "categoryId": 1,
+        "projectId": 1,
+        "discount": 40,
+        "image": "/img/Corazon-Delator.jpg",
+        "stock": true
+    },
+    {
+        "id": 2,
+        "name": "El Principito editado devuelta",
+        "price": "4000",
+        "description": "Libro El Principito, edicion limitada",
+        "categoryId": 1,
+        "projectId": 2,
+        "discount": "20",
+        "stock": false,
+        "image": "/img/el-principito-jpg.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Harry Potter",
+        "price": "1500",
+        "description": "Libro HArry Potter, edicion limitada",
+        "categoryId": 2,
+        "projectId": 4,
+        "discount": "15",
+        "image": "/img/Harry.jpg",
+        "stock": false
+    },
+    {
+        "id": 4,
+        "name": "La Bella Durmiente",
+        "price": 700,
+        "description": "Marcador Sharpie- Crea tus diseños,edicion limitada, con lapiz de regalo ",
+        "categoryId": 2,
+        "projectId": 5,
+        "discount": 0,
+        "image": "/img/labelladurmiente.jpg",
+        "stock": true
+    },
+    {
+        "id": 5,
+        "name": "Estado de malestar - Nina Lykke",
+        "price": 2000,
+        "description": "Galardonada con el Premio Brage, el más importante galardón literario de Noruega, esta novela ha supuesto la consagración de Nina Lykke como una de las grandes escritoras de su país gracias a la ironía con la que critica el supuesto paraíso de los países nórdicos. ",
+        "categoryId": 1,
+        "projectId": 12,
+        "discount": 40,
+        "image": "/img/estado_de_malestar.jpg",
+        "stock": true
+    },
+    {
+        "id": 6,
+        "name": "Romeo y Julieta - William Shakespeare",
+        "price": 2500,
+        "description": "Una de las pocas historias que no exigen presentación alguna, un argumento que forma parte del imaginario colectivo, un drama que se repite incansablemente hasta nuestros tiempos y una traducción contemporánea que renueva los votos y la vigencia de un clásico inoxidable.",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 40,
+        "image": "/img/romwe_y_julieta.jpg",
+        "stock": true
+    },
+    {
+        "id": 7,
+        "name": "El mercader de Venecia - William Shakespeare",
+        "price": 2500,
+        "description": "Durante todo el siglo XIX y buena parte del siglo XX, la genial comedia de Shakespeare se convirtió en un clásico del antisemitismo. Durante el nazismo se montaron en Alemania no menos de cincuenta puestas distintas de la polémica obra. Luego del Holocausto las interpretaciones cambiaron de signo y muchos quisieron convertirla en una aguda crítica del antisemitismo. ¿Es efectivamente El mercader de Venecia una obra antisemita? Si es así, ¿quiere esto decir que también lo era su autor? ¿Qué hacer con ella, si así fuera? ¿Deberíamos dejar de leerla y representarla, como parecen sugerir algunos de sus detractores? Esta nueva traducción de Carlos Gamerro, sumada a su estudio preliminar y a las notas que acompañan el texto, se propone hacer justicia al esplendor del lenguaje de su autor y a su profética elaboración intelectual y ética de una problemática central de nuestra época.",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/el_mercader_de_venecia.jpg",
+        "stock": true
+    },
+    {
+        "id": 8,
+        "name": "Hamlet - William Shakespeare",
+        "price": 2500,
+        "description": "Hamlet es un embajador de la muerte. Hamlet sabe lo que el más allá esconde. Y nos lo cuenta. Tal vez sea ese, entonces, uno de los motivos para que este texto siga teniendo esta infinita persistencia: que siempre sepa volver, que nunca se vaya. Hamlet –y Shakespeare con él– mira de frente a la muerte, habla con ella, nos cuenta su verdad. Compartí junto a Carlos Gamerro –yo iba a dirigir esta obra– el proceso que él llevó adelante para la traducción de Hamlet: la pasión que tuvieron esos meses de trabajo sobre este texto extraordinario es comprobable en el libro que tenés entre las manos. Esta traducción entonces –que no es sino aquel puñado de palabras de quien supo estar del otro lado y volvió– está hecha para ser dicha en voz alta, para que todos quienes amamos el teatro (nos dediquemos a él o no) vayamos por ahí repitiendo los versos que Carlos Gamerro volvió a escribir en este, nuestro idioma. Seamos nosotros, también, persistentes embajadores.",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/hamlet.jpg",
+        "stock": true
+    },
+    {
+        "id": 9,
+        "name": "Cien años de soledad - Gabriel Garcia Marquez",
+        "price": 2500,
+        "description": "Considerada una obra maestra de la literatura universal, es una de las novelas más traducidas y leídas en español de este premio Nobel. Paradigma del realismo mágico, relata la aventura de siete generaciones de la familia Buendía-Iguarán en la ciudad imaginaria de Macondo.",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/100_años_de_soledad.jpg",
+        "stock": true
+    },
+    {
+        "id": 10,
+        "name": "Libro prueba",
+        "price": "2500",
+        "projectId": 13,
+        "discount": "0",
+        "stock": false
+    },
+    {
+        "id": 11,
+        "name": "hshh",
+        "price": "2500",
+        "projectId": 13,
+        "discount": "0",
+        "stock": false
+    },
+    {
+        "id": 12,
+        "name": "",
+        "price": 2500,
+        "description": " ",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/default-image.jpg",
+        "stock": true
+    },
+    {
+        "id": 13,
+        "name": "",
+        "price": 2500,
+        "description": " ",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/default-image.jpg",
+        "stock": true
+    },
+    {
+        "id": 14,
+        "name": "",
+        "price": 2500,
+        "description": " ",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/default-image.jpg",
+        "stock": true
+    },
+    {
+        "id": 15,
+        "name": "",
+        "price": 2500,
+        "description": " ",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/default-image.jpg",
+        "stock": true
+    },
+    {
+        "id": 16,
+        "name": "",
+        "price": 2500,
+        "description": " ",
+        "categoryId": 1,
+        "projectId": 13,
+        "discount": 0,
+        "image": "/img/default-image.jpg",
+        "stock": true
+    },
+    {
+        "id": 17,
+        "nombre": "agregad",
+        "precio": "3000",
+        "descripcion": "agregado",
+        "categoriaId": "Libros",
+        "descuento": "10",
+        "imagen": "default-image.jpg",
+        "stock": true
+    },
+    {
+        "name": "reglas de 20 cm",
+        "price": "20000",
+        "discount": "10",
+        "stock": false,
+        "id": 18
+    }
+]

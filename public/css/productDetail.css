@@ -1,0 +1,167 @@
+/* 
+:root {
+    --color-4: #23b3e8;
+    --color-3: #A6E3E9;
+    --color-2: #CBF1F5;
+    --color-1: #E3FDFD;
+}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #006f97;
+    
+} */
+
+.divSection_detalle{
+    display: flex;
+    justify-content: center;
+}
+.section_detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo_detalle{
+    display: flex;
+    font-size: larger;
+    margin: 12px;
+    color: aliceblue;
+    justify-content: center;
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.ImgCar_detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addCar{
+    border-radius: 6px;
+    color: #006797;
+    padding: 1% 3%;
+    margin: 2px;
+}
+.container-cuadroImg{
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 6px;
+    width: min-content;
+    padding: 3%;
+    border-radius: 6px;
+}
+.cuadroImgBig{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0px 5px #006797;
+}
+
+.cuadroImg {
+    width: 116px;
+    height: 116px;
+    box-shadow: 0 0px 5px #006797;
+}
+.cuadroImgSmall{
+    width: 116px;
+    height: 116px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 22px;
+}
+.cuadroProducto {
+    background-color: aliceblue; 
+    margin-bottom: 6px;
+    width: min-content;
+    padding: 3%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px white;
+}
+.cuadroProductoSmall {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.car_detalle {
+    background-color: aliceblue;
+    margin: 4%;
+    width: min-content;
+    padding: 3%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px white;   
+}
+
+.ul_detalle {
+    list-style: none;
+    margin: 14px;
+    width: 235px;
+    padding: 3%;
+    color: #006f97;    
+}
+.containerCar-center {
+    display: flex;
+    justify-content: center;
+}
+.containerCar-Flex {
+    display: flex;
+    justify-content: space-between;
+}
+.container-center {
+    display: flex;
+    justify-content: center;
+}
+.descripcion_detalle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: aliceblue;
+    padding: 1% 6%;
+}
+.descripcion .detalle {
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    justify-content: center;
+    padding-left: 2px;
+}
+.d-block{
+    width: 200px;
+    height: 200px;
+}
+.carousel-inner{
+    border: solid;
+    width: 304px;
+}
+
+
+@media (min-width: 892px) {
+    .ImgCar_detalle {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+    }
+    .titulo_detalle{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        font-size: xx-large;
+    }
+    .descripcion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 12px;
+    }  
+    .descripcion .detalle {
+        display: flex;
+        flex-direction: column;
+        width: 470px;
+        justify-content: center;
+    }  
+} 
+ 
